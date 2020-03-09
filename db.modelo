@@ -1,0 +1,12 @@
+$TTL	86400
+@	IN	SOA	ns1.localhost. root.localhost. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			  86400 )	; Negative Cache TTL
+;
+@	IN	NS	ns1.localhost.
+ns1	IN	A	10.0.100.2
+www	IN	A	10.0.100.2
+ftp	IN	A	10.0.100.2
